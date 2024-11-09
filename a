@@ -19,7 +19,7 @@ public class Main {
                 System.out.println("%d + %d = %d".formatted(a, b, (a + b)));
                 break;
             case "-":
-                System.out.println("%d + %d = %d".formatted(a, b, (a - b)));
+                System.out.printf("%d + %d = %d".formatted(a, b, (a - b)));
                 break;
             case "*":
                 System.out.println(a + "*" + b + "=" +(a * b));
